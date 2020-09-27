@@ -8,7 +8,7 @@ class Home extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <p>Hello</p>
+                <p>Hello World</p>
             </React.Fragment>
         );
     }
