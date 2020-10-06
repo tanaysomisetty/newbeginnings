@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    font-family: Avenir, Helvetica, sans-serif;
+    font-size: 32px;
+    box-shadow: 2px 2px 8px #000000;
+}
+
+
+.nav{
+    display: inline-block;
+    height: 100%;
+
+}
+
+.nav-link{
+    color: #ABA6A6;
+    line-height: 80px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
