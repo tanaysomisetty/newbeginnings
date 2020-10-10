@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-evenly;
     position: sticky;
+    z-index: 999;
     top: 0px;
     width: 100%;
     height: 80px;
     font-family: Avenir, Helvetica, sans-serif;
     font-size: 32px;
     box-shadow: 2px 2px 8px #000000;
+    background-color: #FFFFFF;
 }
 
 

@@ -6,7 +6,9 @@ import "./Footer.css";
 function Footer(){
     return (
         <React.Fragment>
+            <div className="footer">
 
+            </div>
         </React.Fragment>
     )
 }
