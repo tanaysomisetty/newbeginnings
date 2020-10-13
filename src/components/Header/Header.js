@@ -9,9 +9,9 @@ function Header(){
             <div className="navbar">
                 <div className="nav"><Link className="nav-link">Home</Link></div>
                 <div className="nav"><Link className="nav-link">Mentorship</Link></div>
-                <div className="nav"><Link className="nav-link">Employers</Link></div>
+                <div className="nav"><Link className="nav-link">Employment</Link></div>
                 <div className="nav"><Link className="nav-link">Resources</Link></div>
-                <div className="nav"><Link className="nav-link">Sign In</Link></div>
+                <div className="nav"><Link className="nav-link"><b>Sign In</b></Link></div>
             </div>
         </React.Fragment>
     )
