@@ -71,3 +71,28 @@ p{
     text-decoration: underline;
 }
 
+.home-container-3{
+    position: relative;
+    margin-top: 200px;
+}
+
+.home-textbox-feedback{
+    position: absolute;
+    display: inline-block;
+    background-color: #F5B295;
+    padding: 10px 20px;
+    left: 12%;
+}
+
+.home-textbox-feedback p{
+    font-size: 22px;
+}
+
+.home-textbox-pictures{
+    position: absolute;
+    right: 12%;
+    display: inline-block;
+    background-color: #D3CCCC;
+    width: 400px;
+    height: 500px;
+}

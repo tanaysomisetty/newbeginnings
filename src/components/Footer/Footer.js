@@ -3,14 +3,10 @@ import { Link } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import "./Footer.css";
 
-function Footer(){
-    return (
+export const Footer = () => (
         <React.Fragment>
             <div className="footer">
 
             </div>
         </React.Fragment>
     )
-}
-
-export default Footer;

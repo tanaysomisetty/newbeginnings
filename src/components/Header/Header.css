@@ -13,15 +13,11 @@
 }
 
 
-.nav{
-    display: inline-block;
-    height: 100%;
 
-}
 
 .nav-link{
     color: #ABA6A6;
-    line-height: 80px;
+    line-height: 0px;
     text-decoration: none;
 }
 
