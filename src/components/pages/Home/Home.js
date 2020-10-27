@@ -68,7 +68,7 @@ class Home extends React.Component{
                         </div>
                     </div>
                     <div className="home-container-3">   
-                            <div>
+                            <div className="home-textbox-feedback">
                                 <p>
                                     We’re constantly looking for ways to <br/>
                                     improve our website/app. Feel free to <br/>
@@ -76,6 +76,9 @@ class Home extends React.Component{
                                     newbeginnings.innb@gmail.com or fill <br/>
                                     out this feedback form!
                                 </p>
+                            </div>
+                            <div className="home-textbox-pictures">
+
                             </div>
                         </div>
                 </div>

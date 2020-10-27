@@ -1,20 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import ReactDOM from 'react-dom';
+import {Nav} from "react-bootstrap";
+import {Link, HashRouter as Router} from "react-router-dom";
 import "./Header.css";
 
-function Header(){
-    return (
-        <React.Fragment>
+export const Header = () => (
+        <Router>
             <div className="navbar">
-                <div className="nav"><Link className="nav-link">Home</Link></div>
-                <div className="nav"><Link className="nav-link">Mentorship</Link></div>
-                <div className="nav"><Link className="nav-link">Employment</Link></div>
-                <div className="nav"><Link className="nav-link">Resources</Link></div>
-                <div className="nav"><Link className="nav-link"><b>Sign In</b></Link></div>
+                <Nav.Item><Nav.Link as = {Link} to = "/"><h5>Home</h5></Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link as = {Link} to = "/mentorship"><h5>Mentorship</h5></Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link as = {Link} to = "/profdev"><h5>Professional Development</h5></Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link as = {Link} to = "/resources"><h5>Resources</h5></Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link as = {Link} to = "/signin"><h5>Sign In</h5></Nav.Link></Nav.Item>
+                
             </div>
-        </React.Fragment>
+        </Router>
     )
-}
-
-export default Header;
