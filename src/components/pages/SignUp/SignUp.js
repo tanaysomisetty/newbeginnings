@@ -9,7 +9,7 @@ class SignUp extends React.Component{
         return(
             <React.Fragment>
                 {/*-----Type your code here-----*/}
-
+                <p>Sign Up</p>
 
 
 

@@ -1,19 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {Redirect} from 'react-router-dom';
-import "./SignIn.css";
+import "./Mentorship.css";
 
 
-class SignIn extends React.Component{
+class Mentorship extends React.Component{
     render(){
         return(
             <React.Fragment>
                 {/*-----Type your code here-----*/}
-                <p>Sign in</p>
+                <p>Mentorship</p>
             </React.Fragment>
         )
     }
 
 }
 
-export default SignIn;
+export default Mentorship;
