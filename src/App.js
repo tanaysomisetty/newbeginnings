@@ -11,6 +11,7 @@ import Profdev from './components/pages/Profdev/Profdev.js'
 import Resources from './components/pages/Resources/Resources.js'
 import SignIn from './components/pages/SignIn/SignIn.js'
 import SignUp from './components/pages/SignUp/SignUp.js'
+import ProfDev from './components/pages/ProfDev/ProfDev.js'
 
 
 class App extends Component {
