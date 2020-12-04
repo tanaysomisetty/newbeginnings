@@ -8,6 +8,7 @@ import {Footer} from './components/Footer/Footer';
 import Home from './components/pages/Home/Home.js';
 import SignIn from './components/pages/SignIn/SignIn.js'
 import SignUp from './components/pages/SignUp/SignUp.js'
+import ProfDev from './components/pages/ProfDev/ProfDev.js'
 
 class App extends Component {
   render() {
@@ -17,9 +18,10 @@ class App extends Component {
             <Container fluid className = 'container'>
             <Router>
               <Header/>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/signin" component={SignIn} />
-              <Route exact path="/signup" component={SignUp} />
+              <Route exact path="/" exact component={Home} />
+              <Route exact path="/profdev" exact component={ProfDev} />
+              <Route exact path="/signin" exact component={SignIn} />
+              <Route exact path="/signup" exact component={SignUp} />
               <Footer/>
             </Router>
             </Container>

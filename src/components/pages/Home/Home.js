@@ -8,9 +8,10 @@ class Home extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <div className="home-container">
+                
                     <div className="home-container-1">
                         <img className="home-logo" src={require("../../Pictures/logo.png")}/>
+                        <div className = "home-textbox-background"></div>
                         <div className="home-textbox-1">
                             <p>
                                 Our mission is to help formerly incarcerated 
@@ -67,20 +68,7 @@ class Home extends React.Component{
                             </p>
                         </div>
                     </div>
-                    <div className="home-container-3">   
-                            <div className="home-textbox-feedback">
-                                <p>
-                                    We’re constantly looking for ways to <br/>
-                                    improve our website/app. Feel free to <br/>
-                                    reach out to us at <br/>
-                                    newbeginnings.innb@gmail.com or fill <br/>
-                                    out this feedback form!
-                                </p>
-                            </div>
-                            <div className="home-textbox-pictures">
-
-                            </div>
-                        </div>
+                <div className = "padding50">   
                 </div>
             </React.Fragment>
         );
